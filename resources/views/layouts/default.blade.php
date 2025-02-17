@@ -1149,6 +1149,20 @@ dir="{{ Helper::determineLanguageDirection() }}">
                 observer.observe(document.body, config);
             });
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('th').forEach(function(th) {
+        if (th.innerText.trim() === "Asset Name") {
+            th.innerText = "Sample";
+        } else if (th.innerText.trim() === "Device Image") {
+            th.innerText = "Sample Image";
+        }
+    });
+});
+</script>
+
+
+            
 
         </script>
 
