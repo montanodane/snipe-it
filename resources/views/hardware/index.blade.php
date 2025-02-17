@@ -108,8 +108,8 @@
 
 <script>
 $(document).ready(function() {
-    $('th:contains("name")').text('Sample Name');
-    // Add more as needed
+    $('th data-field:contains("name")').text('Sample Name');
+    
 });
 </script>
 
