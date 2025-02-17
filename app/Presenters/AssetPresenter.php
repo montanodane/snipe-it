@@ -71,7 +71,7 @@ class AssetPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/hardware/form.model'),
-                'visible' => true,
+                'visible' => false,
                 'formatter' => 'modelsLinkObjFormatter',
             ], [
                 'field' => 'model_number',
