@@ -65,7 +65,7 @@ class IconHelper
                 return 'fas fa-object-group';
             case 'assets':
             case 'asset':
-                return 'fas fa-barcode';
+                return 'fas fa-cut';
             case 'accessories':
             case 'accessory':
                 return 'far fa-keyboard';
