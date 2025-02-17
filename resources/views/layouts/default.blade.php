@@ -1158,21 +1158,39 @@ dir="{{ Helper::determineLanguageDirection() }}">
 
 <script>
 $(document).ready(function() {
+    // Column header mapping
+    let columnMapping = {
+        "Asset Name": "Sample Name",
+        "Device Image": "Sample Image",
+        "Asset Tag": "Sample ID",
+        "Serial": "Sample ID",
+        "Model": "Sample Name",
+        "Category": "Season",
+    };
+
+    // Change text in the column headers
     $(".th-inner").each(function() {
         let currentText = $(this).text().trim();
 
-        let columnMapping = {
-            "Asset Name": "Sample Name",
-            "Device Image": "Sample Image",
-            "Asset Tag": "Sample ID",
-            "Serial": "Sample ID",
-            "Model": "Sample Name",
-            "Category": "Season",
-            
-        };
-
         if (columnMapping[currentText]) {
             $(this).text(columnMapping[currentText]);
+        }
+    });
+
+    // Additional label mapping in .col-md-3
+    let labelMapping = {
+        "Asset Tag": "Sample ID",
+        "Serial": "Sample ID",
+        "Model": "Sample Name",
+        "Asset Name": "Sample Name",
+    };
+
+    // Change text inside <div class="col-md-3">
+    $(".col-md-3").each(function() {
+        let currentText = $(this).text().trim();
+
+        if (labelMapping[currentText]) {
+            $(this).html("<strong>" + labelMapping[currentText] + "</strong>");
         }
     });
 });
