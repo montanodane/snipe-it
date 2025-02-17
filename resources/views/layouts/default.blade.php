@@ -85,18 +85,6 @@ dir="{{ Helper::determineLanguageDirection() }}">
     <script src="{{ url(asset('js/html5shiv.js')) }}" nonce="{{ csrf_token() }}"></script>
     <script src="{{ url(asset('js/respond.js')) }}" nonce="{{ csrf_token() }}"></script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('th').forEach(function(th) {
-        if (th.innerText.trim() === "Asset Name") {
-            th.innerText = "Sample Name";
-        } else if (th.innerText.trim() === "Device Image") {
-            th.innerText = "Sample Image";
-        }
-    });
-});
-</script>
-
 </head>
 
 @if (($snipeSettings) && ($snipeSettings->allow_user_skin==1) && Auth::check() && Auth::user()->present()->skin != '')
@@ -1168,7 +1156,17 @@ document.addEventListener("DOMContentLoaded", function() {
         @endif
 
 
-
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('th').forEach(function(th) {
+        if (th.innerText.trim() === "Asset Name") {
+            th.innerText = "Sample Name";
+        } else if (th.innerText.trim() === "Device Image") {
+            th.innerText = "Sample Image";
+        }
+    });
+});
+</script>
 
                             
         </body>
