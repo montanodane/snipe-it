@@ -699,7 +699,27 @@
   </div>
 
 
+<script>
+$(document).ready(function() {
+    $(".th-inner").each(function() {
+        let currentText = $(this).text().trim();
 
+        let columnMapping = {
+            "Asset Name": "Sample Name",
+            "Device Image": "Sample Image",
+            "Asset Tag": "Sample ID",
+            "Serial": "Sample ID",
+            "Model": "Sample Name",
+            "Category": "Season",
+            
+        };
+
+        if (columnMapping[currentText]) {
+            $(this).text(columnMapping[currentText]);
+        }
+    });
+});
+</script>
 
 
 
