@@ -1161,11 +1161,18 @@ $(document).ready(function() {
     // Column header mapping
     let columnMapping = {
         "Asset Name": "Sample Name",
-        "Device Image": "Sample Image",
-        "Asset Tag": "Sample ID",
-        "Serial": "Sample ID",
+        "Device Image": "Image",
+        "Asset Tag": "Tag ID",
+        "Serial": "Style Code",
         "Model": "Sample Name",
         "Category": "Season",
+        "Checked Out To": "F.A.O",
+        "Status": "Sample STAGE",
+        "Notes": "Comp/SRN/CUT",
+        "Manufacturer": "Supplier",
+        
+        
+      
     };
 
     // Change text in the column headers
@@ -1179,12 +1186,16 @@ $(document).ready(function() {
 
     // Additional label mapping in .col-md-3
     let labelMapping = {
-         "Asset Name": "Sample Name",
-        "Device Image": "Sample Image",
-        "Asset Tag": "Sample ID",
-        "Serial": "Sample ID",
+        "Asset Name": "Sample Name",
+        "Device Image": "Image",
+        "Asset Tag": "Tag ID",
+        "Serial": "Style Code",
         "Model": "Sample Name",
         "Category": "Season",
+        "Checked Out To": "F.A.O",
+        "Status": "Sample STAGE",
+        "Notes": "Comp/SRN/CUT",
+        "Manufacturer": "Supplier",
     };
 
     // Change text inside <div class="col-md-3">
