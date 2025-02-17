@@ -1158,13 +1158,7 @@ dir="{{ Helper::determineLanguageDirection() }}">
             </script>
         @endif
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-    $('th:contains("Asset Name")').text('Sample');
-    $('th:contains("Device Image")').text('test');
-});
-</script>
+
 
 
                             
