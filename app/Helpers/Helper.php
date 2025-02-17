@@ -1305,7 +1305,7 @@ class Helper
 
         switch ($item) {
             case 'asset':
-                return 'fas fa-barcode';
+                return 'fas fa-cut';
                 break;
             case 'accessory':
                 return 'fas fa-keyboard';
