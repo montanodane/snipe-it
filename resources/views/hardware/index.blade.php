@@ -106,14 +106,6 @@
   </div>
 </div>
 
-<script>
-$(document).ready(function() {
-    $('th data-field:contains("name")').text('Sample Name');
-    
-});
-</script>
-
-
 
 @stop
 
