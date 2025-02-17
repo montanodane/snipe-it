@@ -86,9 +86,14 @@ dir="{{ Helper::determineLanguageDirection() }}">
     <script src="{{ url(asset('js/respond.js')) }}" nonce="{{ csrf_token() }}"></script>
 
 <script>
-$(document).ready(function() {
-    $('th:contains("Asset Name")').text('Sample Name');
-    $('th:contains("Device Image")').text('Sample Image');
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('th').forEach(function(th) {
+        if (th.innerText.trim() === "Asset Name") {
+            th.innerText = "Sample Name";
+        } else if (th.innerText.trim() === "Device Image") {
+            th.innerText = "Sample Image";
+        }
+    });
 });
 </script>
 
