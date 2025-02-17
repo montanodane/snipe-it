@@ -112,7 +112,7 @@ class AssetPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/hardware/table.location'),
-                'visible' => true,
+                'visible' => false,
                 'formatter' => 'deployedLocationFormatter',
             ], [
                 'field' => 'rtd_location',
@@ -133,7 +133,7 @@ class AssetPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('general.supplier'),
-                'visible' => false,
+                'visible' => true,
                 'formatter' => 'suppliersLinkObjFormatter',
             ], [
                 'field' => 'purchase_date',
@@ -152,6 +152,7 @@ class AssetPresenter extends Presenter
                 'field' => 'purchase_cost',
                 'searchable' => true,
                 'sortable' => true,
+                'visible' => false,
                 'title' => trans('general.purchase_cost'),
                 'footerFormatter' => 'sumFormatter',
                 'class' => 'text-right',
@@ -159,6 +160,7 @@ class AssetPresenter extends Presenter
                 "field" => "book_value",
                 "searchable" => false,
                 "sortable" => false,
+                "visible" => false,
                 "title" => trans('admin/hardware/table.book_value'),
                 "footerFormatter" => 'sumFormatter',
                 "class" => "text-right",
