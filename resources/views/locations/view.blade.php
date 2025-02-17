@@ -70,7 +70,7 @@
                   @if ($location->assignedAssets()->AssetsForShow()->count() > 0)
                       <li>
                           <a href="#assets_assigned" data-toggle="tab" data-tooltip="true" title="{{ trans('admin/locations/message.assigned_assets') }}">
-                              <i class="fas fa-barcode" style="font-size: 17px" aria-hidden="true"></i>
+                              <i class="fas fa-cut" style="font-size: 17px" aria-hidden="true"></i>
                               <span class="badge">
                           {{ number_format($location->assignedAssets()->AssetsForShow()->count()) }}
                       </span>
