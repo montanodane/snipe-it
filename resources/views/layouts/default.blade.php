@@ -1163,6 +1163,12 @@ $(document).ready(function() {
 
         let columnMapping = {
             "Asset Name": "Sample Name",
+            "Device Image": "Sample Image",
+            "Asset Tag": "Sample ID",
+            "Serial": "Sample ID",
+            "Model": "Sample Name",
+            "Category": "Season",
+            
         };
 
         if (columnMapping[currentText]) {
