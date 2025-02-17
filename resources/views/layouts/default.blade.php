@@ -1160,11 +1160,11 @@ dir="{{ Helper::determineLanguageDirection() }}">
 $(document).ready(function() {
     // Column header mapping
     let columnMapping = {
-        "Asset Name": "Sample Name",
+        "Asset Name": "Style Description",
         "Device Image": "Image",
         "Asset Tag": "Tag ID",
         "Serial": "Style Code",
-        "Model": "Sample Name",
+        "Model": "Colour",
         "Category": "Season",
         "Checked Out To": "F.A.O",
         "Status": "Sample STAGE",
@@ -1186,11 +1186,11 @@ $(document).ready(function() {
 
     // Additional label mapping in .col-md-3
     let labelMapping = {
-        "Asset Name": "Sample Name",
+        "Asset Name": "Style Description",
         "Device Image": "Image",
         "Asset Tag": "Tag ID",
         "Serial": "Style Code",
-        "Model": "Sample Name",
+        "Model": "Colour",
         "Category": "Season",
         "Checked Out To": "F.A.O",
         "Status": "Sample STAGE",
