@@ -1179,10 +1179,12 @@ $(document).ready(function() {
 
     // Additional label mapping in .col-md-3
     let labelMapping = {
+         "Asset Name": "Sample Name",
+        "Device Image": "Sample Image",
         "Asset Tag": "Sample ID",
         "Serial": "Sample ID",
         "Model": "Sample Name",
-        "Asset Name": "Sample Name",
+        "Category": "Season",
     };
 
     // Change text inside <div class="col-md-3">
