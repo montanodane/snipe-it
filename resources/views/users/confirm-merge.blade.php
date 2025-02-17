@@ -51,7 +51,7 @@
                                         <th class="col-md-3">{{ trans('general.employee_number') }}</th>
                                         <th class="col-md-3">{{ trans('general.groups') }}</th>
                                         <th class="col-md-1 text-right">
-                                            <i class="fas fa-barcode fa-fw" aria-hidden="true" style="font-size: 17px;"></i>
+                                            <i class="fas fa-cut fa-fw" aria-hidden="true" style="font-size: 17px;"></i>
                                             <span class="sr-only">{{ trans('general.assets') }}</span>
                                         </th>
                                         <th class="col-md-1 text-right">
