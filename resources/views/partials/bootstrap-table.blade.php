@@ -356,7 +356,7 @@
 
             if (value.type == 'asset') {
                 item_destination = 'hardware';
-                item_icon = 'fas fa-barcode';
+                item_icon = 'fas fa-cut';
             } else if (value.type == 'accessory') {
                 item_destination = 'accessories';
                 item_icon = 'far fa-keyboard';
