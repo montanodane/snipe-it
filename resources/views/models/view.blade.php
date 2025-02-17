@@ -39,7 +39,7 @@
                     <a href="#assets" data-toggle="tab">
 
                         <span class="hidden-lg hidden-md">
-                          <i class="fas fa-barcode fa-2x"></i>
+                          <i class="fas fa-cut fa-2x"></i>
                         </span>
                         <span class="hidden-xs hidden-sm">
                             {{ trans('general.assets') }}
@@ -52,7 +52,7 @@
                     <a href="#files" data-toggle="tab">
 
                         <span class="hidden-lg hidden-md">
-                          <i class="fas fa-barcode fa-2x"></i>
+                          <i class="fas fa-cut fa-2x"></i>
                         </span>
                         <span class="hidden-xs hidden-sm">
                             {{ trans('general.files') }}
