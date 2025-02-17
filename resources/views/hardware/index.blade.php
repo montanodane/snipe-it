@@ -105,6 +105,16 @@
     </div><!-- /.box -->
   </div>
 </div>
+
+<script>
+$(document).ready(function() {
+    $('th:contains("Asset Name")').text('Sample Name');
+    // Add more as needed
+});
+</script>
+
+
+
 @stop
 
 @section('moar_scripts')
