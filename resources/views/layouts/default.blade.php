@@ -1157,12 +1157,16 @@ dir="{{ Helper::determineLanguageDirection() }}">
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('th').forEach(function(th) {
-        if (th.innerText.trim() === "Asset Name") {
-            th.innerText = "Sample Name";
-        } else if (th.innerText.trim() === "Device Image") {
-            th.innerText = "Sample Image";
+$(document).ready(function() {
+    $(".th-inner").each(function() {
+        let currentText = $(this).text().trim();
+
+        let columnMapping = {
+            "Asset Name": "Sample Name",
+        };
+
+        if (columnMapping[currentText]) {
+            $(this).text(columnMapping[currentText]);
         }
     });
 });
