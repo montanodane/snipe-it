@@ -47,14 +47,6 @@ class AssetPresenter extends Presenter
                 'formatter' => 'imageFormatter',
 
             ], [
-                'field' => 'name',
-                'searchable' => true,
-                'sortable' => true,
-                'title' => trans('admin/hardware/form.name'),
-                'visible' => true,
-                'formatter' => 'hardwareLinkFormatter',
-            
-            ], [
                 'field' => 'asset_tag',
                 'searchable' => true,
                 'sortable' => true,
@@ -62,6 +54,16 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/table.asset_tag'),
                 'visible' => true,
                 'formatter' => 'hardwareLinkFormatter',
+            
+
+            ], [
+                'field' => 'name',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => trans('admin/hardware/form.name'),
+                'visible' => true,
+                'formatter' => 'hardwareLinkFormatter',
+            
 
                 ], [
                 'field' => 'notes',
