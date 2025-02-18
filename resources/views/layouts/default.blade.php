@@ -1166,9 +1166,12 @@ $(document).ready(function() {
         "Serial": "Style Code",
         "Category": "Season",
         "Checked Out To": "F.A.O",
-        "Status": "Sample STAGE",
+        "Status": "STAGE",
         "Notes": "Comp/SRN/CUT",
         "Manufacturer": "Supplier",
+        "Model": "Season",
+        "Category": "Colour",
+        "Model No.": "UniqueID",
         
         
       
@@ -1191,9 +1194,12 @@ $(document).ready(function() {
         "Serial": "Style Code",
         "Category": "Season",
         "Checked Out To": "F.A.O",
-        "Status": "Sample STAGE",
+        "Status": "STAGE",
         "Notes": "Comp/SRN/CUT",
         "Manufacturer": "Supplier",
+        "Model": "Season",
+        "Category": "Colour",
+        "Model No.": "UniqueID",
     };
 
     // Change text inside <div class="col-md-3">
