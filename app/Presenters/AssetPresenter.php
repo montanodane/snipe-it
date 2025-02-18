@@ -27,7 +27,7 @@ class AssetPresenter extends Presenter
                 'sortable' => true,
                 'switchable' => true,
                 'title' => trans('general.id'),
-                'visible' => false,
+                'visible' => true,
             ], [
                 'field' => 'company',
                 'searchable' => true,
@@ -71,14 +71,14 @@ class AssetPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/hardware/form.model'),
-                'visible' => false,
+                'visible' => true,
                 'formatter' => 'modelsLinkObjFormatter',
             ], [
                 'field' => 'model_number',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/models/table.modelnumber'),
-                'visible' => false,
+                'visible' => true,
             ], [
                 'field' => 'category',
                 'searchable' => true,
@@ -210,7 +210,7 @@ class AssetPresenter extends Presenter
                 'field' => 'notes',
                 'searchable' => true,
                 'sortable' => true,
-                'visible' => false,
+                'visible' => true,
                 'title' => trans('general.notes'),
 
             ], [
