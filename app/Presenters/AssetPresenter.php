@@ -78,7 +78,7 @@ class AssetPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/models/table.modelnumber'),
-                'visible' => true,
+                'visible' => false,
             ], [
                 'field' => 'category',
                 'searchable' => true,
