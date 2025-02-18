@@ -1171,7 +1171,6 @@ $(document).ready(function() {
         "Manufacturer": "Supplier",
         "Model": "Season",
         "Category": "Colour",
-        "Model No.": "UniqueID",
         
         
       
@@ -1199,7 +1198,6 @@ $(document).ready(function() {
         "Manufacturer": "Supplier",
         "Model": "Season",
         "Category": "Colour",
-        "Model No.": "UniqueID",
     };
 
     // Change text inside <div class="col-md-3">
