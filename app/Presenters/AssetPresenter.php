@@ -59,6 +59,15 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/table.asset_tag'),
                 'visible' => true,
                 'formatter' => 'hardwareLinkFormatter',
+
+                ], [
+                'field' => 'notes',
+                'searchable' => true,
+                'sortable' => true,
+                'visible' => true,
+                'title' => trans('general.notes'),
+
+            
             ], [
                 'field' => 'serial',
                 'searchable' => true,
@@ -205,13 +214,6 @@ class AssetPresenter extends Presenter
                 'visible' => false,
                 'title' => trans('admin/hardware/general.requestable'),
                 'formatter' => 'trueFalseFormatter',
-
-            ], [
-                'field' => 'notes',
-                'searchable' => true,
-                'sortable' => true,
-                'visible' => true,
-                'title' => trans('general.notes'),
 
             ], [
                 'field' => 'checkout_counter',
