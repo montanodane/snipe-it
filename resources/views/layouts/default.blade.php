@@ -1162,7 +1162,7 @@ $(document).ready(function() {
     let columnMapping = {
         "Asset Name": "Style Description",
         "Device Image": "Image",
-        "Asset Tag": "Tag ID",
+        "Asset Tag": "Sample Tag",
         "Serial": "Style Code",
         "Category": "Season",
         "Checked Out To": "F.A.O",
@@ -1171,6 +1171,7 @@ $(document).ready(function() {
         "Manufacturer": "Supplier",
         "Model": "Season",
         "Category": "Colour",
+        "Order Number": "Unique ID",
         
         
       
@@ -1189,7 +1190,7 @@ $(document).ready(function() {
     let labelMapping = {
         "Asset Name": "Style Description",
         "Device Image": "Image",
-        "Asset Tag": "Tag ID",
+        "Asset Tag": "Sample Tag",
         "Serial": "Style Code",
         "Category": "Season",
         "Checked Out To": "F.A.O",
@@ -1198,6 +1199,7 @@ $(document).ready(function() {
         "Manufacturer": "Supplier",
         "Model": "Season",
         "Category": "Colour",
+        "Order Number": "Unique ID",
     };
 
     // Change text inside <div class="col-md-3">
