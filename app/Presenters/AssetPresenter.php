@@ -182,7 +182,7 @@ class AssetPresenter extends Presenter
                 'field' => 'order_number',
                 'searchable' => true,
                 'sortable' => true,
-                'visible' => true,
+                'visible' => false,
                 'title' => trans('general.order_number'),
                 'formatter' => 'orderNumberObjFilterFormatter',
             ], [
